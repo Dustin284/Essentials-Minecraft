@@ -33,7 +33,10 @@ public class Gamemode implements CommandExecutor {
                     } else {
                         p.sendMessage(Strings.gm_usage);
                     }
+
                 }
+            }else{
+                p.sendMessage(Strings.noperms);
             }
         }
         return false;
