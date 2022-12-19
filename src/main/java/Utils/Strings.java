@@ -7,6 +7,16 @@ public class Strings {
     public static String prefix = ChatColor.GRAY + "[ " + ChatColor.AQUA + "ESSENTIALS" + ChatColor.GRAY + " ] " + ChatColor.RESET;
     public static String noperms = prefix + ChatColor.RED + "Du hast keine Berechtigung für diesen Befehl!";
     public static String need_user = prefix + ChatColor.RED + "Du musst ein Spieler sein!";
+    public static String command_not_enabled = prefix + ChatColor.RED + "Dieser Befehl ist nicht aktiviert!";
+
+    // Enable command
+    public static String comand_speicfy = prefix + ChatColor.RED + "Bitte gebe einen Befehl zum aktivieren an.";
+    public static String command_enabled = prefix + ChatColor.GREEN + "Der Befehl wurde erfolgreich aktiviert!";
+    public static String command_dosent_exist = prefix + ChatColor.RED + "Dieser Befehl existiert nicht!";
+
+    // Disable command
+
+    public static String command_disabled = prefix + ChatColor.RED + "Der Befehl wurde erfolgreich deaktiviert!";
     // Gamemode command
     public static String gm_usage = prefix + ChatColor.RED + "Bitte benutze /gm <0/1/2/3>";
     public static String gm0 = prefix + ChatColor.GREEN + "Dein Gamemode wurde auf §a0 §agesetzt!";
@@ -21,8 +31,8 @@ public class Strings {
     public static String heal_usage = prefix + ChatColor.RED + "Bitte benutze /heal <Spieler>";
     public static String heal = prefix + ChatColor.GREEN + "Du wurdest geheilt!";
     public static String heal_other = prefix + ChatColor.GREEN + "Du hast den Spieler geheilt!";
-    //Backpack command
-    public static String backpack_usage = prefix + ChatColor.RED + "Bitte benutze /bp";
     //Workbench command
     public static String workbench_usage = prefix + ChatColor.RED + "Bitte benutze /wb";
+
+
 }

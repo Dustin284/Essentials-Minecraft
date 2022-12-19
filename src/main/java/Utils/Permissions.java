@@ -8,8 +8,8 @@ public class Permissions {
     //Heal commands
     public static String heal_use = "heal.use";
     public static String heal_other = "heal.other";
-    //Backpack command
-    public static String backpack_use = "backpack.use";
     //Workbench command
     public static String workbench_use = "workbench.use";
+    //Enable command
+    public static String enable_command_use = "enable.command";
 }

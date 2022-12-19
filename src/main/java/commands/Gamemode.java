@@ -1,5 +1,6 @@
 package commands;
 
+import Utils.Booleans;
 import Utils.Permissions;
 import Utils.Strings;
 import org.bukkit.command.Command;
@@ -10,6 +11,7 @@ import org.bukkit.entity.Player;
 public class Gamemode implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if(Booleans.Gamemode == true){
         if (!(sender instanceof Player)) {
             sender.sendMessage(Strings.need_user);
         } else {
@@ -35,9 +37,12 @@ public class Gamemode implements CommandExecutor {
                     }
 
                 }
-            }else{
+            } else {
                 p.sendMessage(Strings.noperms + " (" + Permissions.gm_use + ")");
             }
+        }
+        }else {
+            sender.sendMessage(Strings.command_not_enabled);
         }
         return false;
     }

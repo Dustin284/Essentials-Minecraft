@@ -13,9 +13,9 @@ commands:
   heal:
     description: Heals you
     aliases: [healing]
-  backpack:
-    description: Opens your backpack
-    aliases: [bp]
   workbench:
     description: Opens a workbench
     aliases: [wb]
+  enable:
+    description: Enables a Command
+    aliases: [enablecommand]
