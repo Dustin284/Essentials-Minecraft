@@ -2,11 +2,7 @@ package main;
 
 import Listener.JoinListener;
 import Listener.QuitListener;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.io.File;
 
 public final class Main extends JavaPlugin {
 

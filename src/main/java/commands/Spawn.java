@@ -20,6 +20,7 @@ public class Spawn implements CommandExecutor {
         }else{
             if(Booleans.Spawn == true){
                 LocationUtils.teleport(p, LocationUtils.str2loc(spawns.getString("spawn")));
+                p.sendMessage(Strings.spawn);
             }else{
                 p.sendMessage(Strings.command_not_enabled);
             }
