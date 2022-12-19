@@ -17,5 +17,9 @@ public class Strings {
     public static String gm2 = prefix + ChatColor.GREEN + "Dein Gamemode wurde auf §a2 §agesetzt!";
     public static String gm3 = prefix + ChatColor.GREEN + "Dein Gamemode wurde auf §a3 §agesetzt!";
 
+    // Fly command
+    public static String fly_usage = prefix + ChatColor.RED + "Bitte benutze /fly <on/off>";
+    public static String fly_on = prefix + ChatColor.GREEN + "Du kannst nun fliegen!";
+    public static String fly_off = prefix + ChatColor.RED + "Du kannst nun nicht mehr fliegen!";
 
 }
