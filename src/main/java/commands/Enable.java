@@ -30,6 +30,8 @@ public class Enable implements CommandExecutor {
                     commandSender.sendMessage(Strings.command_dosent_exist);
                 }
             }
+        }else{
+            commandSender.sendMessage( Strings.noperms + " (" + Permissions.enable_command_use + ")");
         }
         return false;
     }
