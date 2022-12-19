@@ -4,3 +4,7 @@ main: main.Main
 api-version: 1.19
 author: Dustin
 commands:
+  gm:
+    description: Changes your gamemode
+    usage: /gm <0/1/2/3>
+    aliases: [gamemode]
