@@ -17,7 +17,7 @@ public final class Main extends JavaPlugin {
         getCommand("gm").setExecutor(new commands.Gamemode());
         getCommand("fly").setExecutor(new commands.Fly());
         getCommand("heal").setExecutor(new commands.Heal());
-        getCommand("bp").setExecutor(new commands.Backpack());
+        //getCommand("bp").setExecutor(new commands.Backpack());
         getCommand("wb").setExecutor(new commands.Workbench());
     }
 

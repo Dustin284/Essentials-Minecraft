@@ -6,21 +6,16 @@ author: Dustin
 commands:
   gm:
     description: Changes your gamemode
-    usage: /gm <0/1/2/3>
     aliases: [gamemode]
   fly:
     description: Toggles flight
-    usage: /fly <on/off>
     aliases: [flight]
   heal:
     description: Heals you
-    usage: /heal <Player>
     aliases: [healing]
   backpack:
     description: Opens your backpack
-    usage: /backpack
     aliases: [bp]
   workbench:
     description: Opens a workbench
-    usage: /workbench
     aliases: [wb]

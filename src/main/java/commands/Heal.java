@@ -20,7 +20,7 @@ public class Heal implements CommandExecutor {
                         p.setHealth(20);
                         p.sendMessage(Strings.heal);
                     } else {
-                        p.sendMessage(Strings.heal_usage);
+                        p.sendMessage(Strings.heal_usage + " (" + Permissions.heal_use + ")");
                     }
                 }
 
@@ -34,7 +34,7 @@ public class Heal implements CommandExecutor {
                         p.sendMessage(Strings.heal_usage);
                     }
                 } else {
-                    p.sendMessage(Strings.noperms);
+                    p.sendMessage(Strings.noperms + " (" + Permissions.heal_other + ")");
                     }
                 }
             }

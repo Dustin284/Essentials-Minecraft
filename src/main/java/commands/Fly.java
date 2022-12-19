@@ -32,7 +32,7 @@ public class Fly implements CommandExecutor {
                     p.sendMessage(Strings.fly_usage);
                 }
             }else{
-                p.sendMessage(Strings.noperms);
+                p.sendMessage(Strings.noperms + " (" + Permissions.fly_use + ")");
             }
         }
 
