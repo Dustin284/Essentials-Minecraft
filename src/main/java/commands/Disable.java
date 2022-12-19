@@ -30,6 +30,8 @@ public class Disable implements CommandExecutor {
                     commandSender.sendMessage(Strings.command_dosent_exist);
                 }
             }
+        }else{
+            commandSender.sendMessage(Strings.noperms + " (" + Permissions.disable_command_use + ")");
         }
         return false;
     }
