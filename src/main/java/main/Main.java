@@ -15,6 +15,7 @@ public final class Main extends JavaPlugin {
 
         //Import Commands
         getCommand("gm").setExecutor(new commands.Gamemode());
+        getCommand("fly").setExecutor(new commands.Fly());
     }
 
     @Override
