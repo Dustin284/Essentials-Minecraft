@@ -13,9 +13,8 @@ public final class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new JoinListener(), this);
         getServer().getPluginManager().registerEvents(new QuitListener(), this);
 
-
         //Import Commands
-
+        getCommand("gm").setExecutor(new commands.Gamemode());
     }
 
     @Override
