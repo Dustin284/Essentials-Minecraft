@@ -8,5 +8,6 @@ public class Booleans {
     public static Boolean Workbench = true;
     public static Boolean Set_Spawn = true;
     public static Boolean Spawn = true;
+    public static Boolean ServerTools = true;
 
 }
