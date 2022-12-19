@@ -12,3 +12,7 @@ commands:
     description: Toggles flight
     usage: /fly
     aliases: [flight]
+  heal:
+    description: Heals you
+    usage: /heal
+    aliases: [healing]

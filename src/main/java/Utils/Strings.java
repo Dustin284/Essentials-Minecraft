@@ -22,4 +22,9 @@ public class Strings {
     public static String fly_on = prefix + ChatColor.GREEN + "Du kannst nun fliegen!";
     public static String fly_off = prefix + ChatColor.RED + "Du kannst nun nicht mehr fliegen!";
 
+    // Heal command
+    public static String heal_usage = prefix + ChatColor.RED + "Bitte benutze /heal <Spieler>";
+    public static String heal = prefix + ChatColor.GREEN + "Du wurdest geheilt!";
+    public static String heal_other = prefix + ChatColor.GREEN + "Du hast den Spieler geheilt!";
+
 }
