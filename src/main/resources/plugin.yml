@@ -1,0 +1,6 @@
+name: Essentials
+version: '${project.version}'
+main: main.Main
+api-version: 1.19
+author: Dustin
+commands:
