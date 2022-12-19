@@ -29,7 +29,7 @@ public class Heal implements CommandExecutor {
                     if (args.length == 1) {
                         Player target = p.getServer().getPlayer(args[1]);
                         target.setHealth(20);
-                        p.sendMessage(Strings.heal);
+                        p.sendMessage(Strings.heal_other);
                     } else {
                         p.sendMessage(Strings.heal_usage);
                     }
