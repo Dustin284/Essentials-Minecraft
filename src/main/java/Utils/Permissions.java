@@ -13,5 +13,10 @@ public class Permissions {
     public static String enable_command_use = "enable.command.use";
     //Disable command
     public static String disable_command_use = "disable.command.use";
+    //Set Spawn command
     public static String set_spawn_use = "set.spawn";
+    //Server Tools command
+    public static String server_tools_use = "server.tools.use";
+    public static String server_tools_shutdown = "server.tools.shutdown";
+    public static String server_tools_reload = "server.tools.reload";
 }
