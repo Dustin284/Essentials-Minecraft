@@ -28,3 +28,6 @@ commands:
   spawn:
     description: Teleports you to the spawn
     aliases: [worldspawn]
+  servertools:
+    description: Opens the ServerTools GUI
+    aliases: [st]
