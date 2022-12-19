@@ -2,6 +2,7 @@ package main;
 
 import Listener.JoinListener;
 import Listener.QuitListener;
+import commands.ServerTools;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Main extends JavaPlugin {
@@ -13,6 +14,7 @@ public final class Main extends JavaPlugin {
         //Import Listener
         getServer().getPluginManager().registerEvents(new JoinListener(), this);
         getServer().getPluginManager().registerEvents(new QuitListener(), this);
+        getServer().getPluginManager().registerEvents(new ServerTools(), this);
 
         //Import Commands
         getCommand("gm").setExecutor(new commands.Gamemode());
@@ -23,6 +25,7 @@ public final class Main extends JavaPlugin {
         getCommand("disable").setExecutor(new commands.Disable());
         getCommand("setspawn").setExecutor(new commands.Set_Spawn());
         getCommand("spawn").setExecutor(new commands.Spawn());
+        getCommand("servertools").setExecutor(new commands.ServerTools());
     }
 
     @Override
