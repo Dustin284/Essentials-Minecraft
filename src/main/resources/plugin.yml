@@ -22,3 +22,9 @@ commands:
   disable:
     description: Disables a Command
     aliases: [disablecommand]
+  setspawn:
+    description: Sets the spawn
+    aliases: [setworldspawn]
+  spawn:
+    description: Teleports you to the spawn
+    aliases: [worldspawn]

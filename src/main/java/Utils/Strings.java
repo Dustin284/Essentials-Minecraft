@@ -31,6 +31,10 @@ public class Strings {
     public static String heal = prefix + ChatColor.GREEN + "Du wurdest geheilt!";
     //Workbench command
     public static String workbench_usage = prefix + ChatColor.RED + "Bitte benutze /wb";
+    //SetSpawn command
+    public static String set_spawn = prefix + ChatColor.GREEN + "Der Spawn wurde erfolgreich gesetzt!";
+    //Spawn command
+    public static String spawn = prefix + ChatColor.GREEN + "Du wurdest zum Spawn teleportiert!";
 
 
 }
