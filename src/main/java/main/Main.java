@@ -19,6 +19,7 @@ public final class Main extends JavaPlugin {
         getCommand("heal").setExecutor(new commands.Heal());
         getCommand("wb").setExecutor(new commands.Workbench());
         getCommand("enable").setExecutor(new commands.Enable());
+        getCommand("disable").setExecutor(new commands.Disable());
     }
 
     @Override

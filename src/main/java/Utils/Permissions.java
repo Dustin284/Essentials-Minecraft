@@ -11,5 +11,7 @@ public class Permissions {
     //Workbench command
     public static String workbench_use = "workbench.use";
     //Enable command
-    public static String enable_command_use = "enable.command";
+    public static String enable_command_use = "enable.command.use";
+    //Disable command
+    public static String disable_command_use = "disable.command.use";
 }

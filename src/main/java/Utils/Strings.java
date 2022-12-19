@@ -15,7 +15,6 @@ public class Strings {
     public static String command_dosent_exist = prefix + ChatColor.RED + "Dieser Befehl existiert nicht!";
 
     // Disable command
-
     public static String command_disabled = prefix + ChatColor.RED + "Der Befehl wurde erfolgreich deaktiviert!";
     // Gamemode command
     public static String gm_usage = prefix + ChatColor.RED + "Bitte benutze /gm <0/1/2/3>";

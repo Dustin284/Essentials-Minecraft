@@ -19,3 +19,6 @@ commands:
   enable:
     description: Enables a Command
     aliases: [enablecommand]
+  disable:
+    description: Disables a Command
+    aliases: [disablecommand]
