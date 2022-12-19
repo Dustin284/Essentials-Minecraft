@@ -29,7 +29,6 @@ public class Strings {
     // Heal command
     public static String heal_usage = prefix + ChatColor.RED + "Bitte benutze /heal <Spieler>";
     public static String heal = prefix + ChatColor.GREEN + "Du wurdest geheilt!";
-    public static String heal_other = prefix + ChatColor.GREEN + "Du hast den Spieler geheilt!";
     //Workbench command
     public static String workbench_usage = prefix + ChatColor.RED + "Bitte benutze /wb";
 

@@ -7,7 +7,6 @@ public class Permissions {
     public static String fly_use = "fly.use";
     //Heal commands
     public static String heal_use = "heal.use";
-    public static String heal_other = "heal.other";
     //Workbench command
     public static String workbench_use = "workbench.use";
     //Enable command

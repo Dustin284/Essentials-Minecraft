@@ -25,19 +25,6 @@ public class Heal implements CommandExecutor {
                             p.sendMessage(Strings.heal_usage + " (" + Permissions.heal_use + ")");
                         }
                     }
-
-                } else if (args.length == 1) {
-                    if (p.hasPermission(Permissions.heal_other)) {
-                        if (args.length == 1) {
-                            Player target = p.getServer().getPlayer(args[1]);
-                            target.setHealth(20);
-                            p.sendMessage(Strings.heal_other);
-                        } else {
-                            p.sendMessage(Strings.heal_usage);
-                        }
-                    } else {
-                        p.sendMessage(Strings.noperms + " (" + Permissions.heal_other + ")");
-                    }
                 }
             }
         }else{
