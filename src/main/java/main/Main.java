@@ -26,6 +26,17 @@ public final class Main extends JavaPlugin {
         getCommand("setspawn").setExecutor(new commands.Set_Spawn());
         getCommand("spawn").setExecutor(new commands.Spawn());
         getCommand("servertools").setExecutor(new commands.ServerTools());
+        //TODO Enderchest
+        //TODO Feed
+        //TODO Hat
+        //TODO Backpack
+        //TODO Build
+        //TODO Clear
+        //TODO Alwyas Day
+        //TODO Alwyas Night
+        //TODO Always Toogleodwnfall
+        //TODO Broadcast
+
     }
 
     @Override
