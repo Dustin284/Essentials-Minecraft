@@ -37,4 +37,14 @@ public class Strings {
     public static String spawn = prefix + ChatColor.GREEN + "Du wurdest zum Spawn teleportiert!";
     //ServerTools command
     public static String reload = prefix + ChatColor.GREEN + "Der Server wurde erfolgreich neugeladen!";
+    //Perks command
+    public static String perks_usage = prefix + ChatColor.RED + "Bitte benutze /perks";
+    public static String perk_dont_get = prefix + ChatColor.RED + "Du hast diesen Perk nicht!";
+    public static String perks_Speed = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Speed" + ChatColor.GREEN + " Perk aktiviert!";
+    public static String perks_Jump = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Jump" + ChatColor.GREEN + " Perk aktiviert!";
+    public static String perks_Night_vision = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Night Vision" + ChatColor.GREEN + " Perk aktiviert!";
+    public static String perks_Water_Breathing = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Water Breathing" + ChatColor.GREEN + " Perk aktiviert!";
+    public static String perks_Fire_Resistance = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Fire Resistance" + ChatColor.GREEN + " Perk aktiviert!";
+
+
 }
