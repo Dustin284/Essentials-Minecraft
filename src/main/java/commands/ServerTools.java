@@ -71,7 +71,7 @@ public class ServerTools implements CommandExecutor, Listener {
 
 
     @EventHandler
-    public void onClick(InventoryClickEvent e)  {
+    private void onClick(InventoryClickEvent e)  {
         if (e.getCurrentItem() == null){ return;}
         e.setCancelled(true);
         Player p = (Player) e.getWhoClicked();
