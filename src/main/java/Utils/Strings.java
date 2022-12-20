@@ -40,11 +40,10 @@ public class Strings {
     //Perks command
     public static String perks_usage = prefix + ChatColor.RED + "Bitte benutze /perks";
     public static String perk_dont_get = prefix + ChatColor.RED + "Du hast diesen Perk nicht!";
-    public static String perks_Speed = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Speed" + ChatColor.GREEN + " Perk aktiviert!";
-    public static String perks_Jump = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Jump" + ChatColor.GREEN + " Perk aktiviert!";
-    public static String perks_Night_vision = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Night Vision" + ChatColor.GREEN + " Perk aktiviert!";
-    public static String perks_Water_Breathing = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Water Breathing" + ChatColor.GREEN + " Perk aktiviert!";
-    public static String perks_Fire_Resistance = prefix + ChatColor.GREEN + "Du hast das " + ChatColor.DARK_AQUA +  "Fire Resistance" + ChatColor.GREEN + " Perk aktiviert!";
+    public static String perks_Speed_ac = prefix + ChatColor.GRAY + "Du hast das " + ChatColor.DARK_AQUA +  "Speed" + ChatColor.GRAY + " Perk" + ChatColor.GREEN + " aktiviert!";
+    public static String perks_Speed_dc = prefix + ChatColor.GRAY + "Du hast das " + ChatColor.DARK_AQUA +  "Speed" + ChatColor.GRAY + " Perk" + ChatColor.RED + " deaktiviert!";
+    public static String perks_Jump_ac = prefix + ChatColor.GRAY + "Du hast das " + ChatColor.DARK_AQUA +  "Jump" + ChatColor.GRAY + " Perk" + ChatColor.GREEN + " aktiviert!";
+    public static String perks_Jump_dc = prefix + ChatColor.GRAY + "Du hast das " + ChatColor.DARK_AQUA +  "Jump" + ChatColor.GRAY + " Perk" + ChatColor.RED + " deaktiviert!";
 
 
 }

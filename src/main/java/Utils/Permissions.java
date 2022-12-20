@@ -19,4 +19,9 @@ public class Permissions {
     public static String server_tools_use = "server.tools.use";
     public static String server_tools_shutdown = "server.tools.shutdown";
     public static String server_tools_reload = "server.tools.reload";
+    //Perks command
+    public static String perks_use = "perks.use";
+    public static String perks_speed = "perks.speed";
+    public static String perks_jump = "perks.jump";
+    public static String perks_use_all = "perks.use.*";
 }
