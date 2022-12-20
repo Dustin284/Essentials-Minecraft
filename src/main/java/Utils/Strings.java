@@ -35,6 +35,6 @@ public class Strings {
     public static String set_spawn = prefix + ChatColor.GREEN + "Der Spawn wurde erfolgreich gesetzt!";
     //Spawn command
     public static String spawn = prefix + ChatColor.GREEN + "Du wurdest zum Spawn teleportiert!";
-
-
+    //ServerTools command
+    public static String reload = prefix + ChatColor.GREEN + "Der Server wurde erfolgreich neugeladen!";
 }

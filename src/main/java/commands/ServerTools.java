@@ -30,33 +30,33 @@ public class ServerTools implements CommandExecutor, Listener {
             if (commandSender instanceof Player) {
                 if (p.hasPermission(Permissions.server_tools_use)) {
                     Inventory inv = Bukkit.getServer().createInventory(null, 9*3, ChatColor.RED + "" + ChatColor.BOLD + "Server Einstellungen");
-                    inv.setItem(0, sign_info);
-                    inv.setItem(1, glass_pane);
-                    inv.setItem(2, glass_pane);
-                    inv.setItem(3, glass_pane);
-                    inv.setItem(4, glass_pane);
-                    inv.setItem(5, glass_pane);
-                    inv.setItem(6, glass_pane);
-                    inv.setItem(7, glass_pane);
-                    inv.setItem(8, glass_pane);
-                    inv.setItem(9, glass_pane);
-                    inv.setItem(10, redstone_block);
-                    inv.setItem(11, barrier);
-                    inv.setItem(12, barrier);
-                    inv.setItem(13, barrier);
-                    inv.setItem(14, eye_of_ender);
-                    inv.setItem(15, barrier);
-                    inv.setItem(16, glass_pane);
-                    inv.setItem(17, glass_pane);
-                    inv.setItem(18, glass_pane);
-                    inv.setItem(19, glass_pane);
-                    inv.setItem(20, glass_pane);
-                    inv.setItem(21, glass_pane);
-                    inv.setItem(22, glass_pane);
-                    inv.setItem(23, glass_pane);
-                    inv.setItem(24, glass_pane);
-                    inv.setItem(25, glass_pane);
-                    inv.setItem(26, glass_pane);
+                    inv.setItem(0, Items.ServerTools.ST_sign_info);
+                    inv.setItem(1, Items.ServerTools.ST_sign_info);
+                    inv.setItem(2, Items.ServerTools.ST_sign_info);
+                    inv.setItem(3, Items.ServerTools.ST_sign_info);
+                    inv.setItem(4, Items.ServerTools.ST_sign_info);
+                    inv.setItem(5, Items.ServerTools.ST_sign_info);
+                    inv.setItem(6, Items.ServerTools.ST_sign_info);
+                    inv.setItem(7, Items.ServerTools.ST_sign_info);
+                    inv.setItem(8, Items.ServerTools.ST_sign_info);
+                    inv.setItem(9, Items.ServerTools.ST_sign_info);
+                    inv.setItem(10, Items.ServerTools.ST_redstone_block);
+                    inv.setItem(11, Items.ServerTools.ST_barrier);
+                    inv.setItem(12, Items.ServerTools.ST_barrier);
+                    inv.setItem(13, Items.ServerTools.ST_barrier);
+                    inv.setItem(14, Items.ServerTools.ST_eye_of_ender);
+                    inv.setItem(15, Items.ServerTools.ST_barrier);
+                    inv.setItem(16, Items.ServerTools.ST_sign_info);
+                    inv.setItem(17, Items.ServerTools.ST_sign_info);
+                    inv.setItem(18, Items.ServerTools.ST_sign_info);
+                    inv.setItem(19, Items.ServerTools.ST_sign_info);
+                    inv.setItem(20, Items.ServerTools.ST_sign_info);
+                    inv.setItem(21, Items.ServerTools.ST_sign_info);
+                    inv.setItem(22, Items.ServerTools.ST_sign_info);
+                    inv.setItem(23, Items.ServerTools.ST_sign_info);
+                    inv.setItem(24, Items.ServerTools.ST_sign_info);
+                    inv.setItem(25, Items.ServerTools.ST_sign_info);
+                    inv.setItem(26, Items.ServerTools.ST_sign_info);
                     p.openInventory(inv);
                 } else {
                     p.sendMessage(Strings.noperms + " (" + Permissions.server_tools_use + ")");
@@ -68,19 +68,7 @@ public class ServerTools implements CommandExecutor, Listener {
         return false;
     }
 
-    private static ItemStack sign_info = createItem(Material.OAK_SIGN, 1, ChatColor.GREEN + "Information", "Hier kannst du die Server Einstellungen ändern", "und den Server Verwalten.");
-    private static ItemStack barrier = createItem(Material.BARRIER, 1, ChatColor.RED + "Cooming Soon.", "Dieses Feature ist noch nicht", "verfügbar.");
-    private static ItemStack eye_of_ender = createItem(Material.ENDER_EYE, 1, ChatColor.GREEN + "Neu Laden", ChatColor.GRAY + "Hier kannst du den Server neu Laden.");
-    private static ItemStack glass_pane = createItem(Material.BLACK_STAINED_GLASS_PANE, 1, ChatColor.BLACK + " ");
-    private static ItemStack redstone_block = createItem(Material.REDSTONE_BLOCK, 1, ChatColor.RED + "Server Herunterfahren", ChatColor.GRAY + "Klicke um den Server herunterzufahren");
-    private static ItemStack createItem(Material material, int amount, String displayName, String... lore) {
-        ItemStack item = new ItemStack(material, amount);
-        ItemMeta meta = item.getItemMeta();
-        meta.setDisplayName(displayName);
-        meta.setLore(Arrays.asList(lore));
-        item.setItemMeta(meta);
-        return item;
-    }
+
 
     @EventHandler
     public void onClick(InventoryClickEvent e)  {
@@ -96,7 +84,7 @@ public class ServerTools implements CommandExecutor, Listener {
         }else if(e.getCurrentItem().getType() == Material.ENDER_EYE){
             if(p.hasPermission(Permissions.server_tools_reload)){
                 Bukkit.getServer().reload();
-                p.sendMessage("ja");
+                p.sendMessage(Strings.reload);
                 p.sendMessage(Strings.noperms + " (" + Permissions.server_tools_reload + ")");
             }
         }
