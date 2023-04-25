@@ -37,6 +37,11 @@ public class Strings {
     public static String spawn = prefix + ChatColor.GREEN + "Du wurdest zum Spawn teleportiert!";
     //ServerTools command
     public static String reload = prefix + ChatColor.GREEN + "Der Server wurde erfolgreich neugeladen!";
+    //ChatClear command
+    public static String ChatClear = " ";
+    public static String ChatCleat_Top = ChatColor.DARK_AQUA + "============ • ChatClear • ============";
+    public static String ChatClear_Middle = ChatColor.DARK_GREEN + "Der Chat wurde geleert";
+    public static String ChatCleat_Down = ChatColor.DARK_AQUA + "============ • ChatClear • ============";
     //Perks command
     public static String perks_usage = prefix + ChatColor.RED + "Bitte benutze /perks";
     public static String perk_dont_get = prefix + ChatColor.RED + "Du hast diesen Perk nicht!";
