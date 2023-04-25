@@ -15,6 +15,8 @@ public class Permissions {
     public static String disable_command_use = "disable.command.use";
     //Set Spawn command
     public static String set_spawn_use = "set.spawn";
+    //ChatClear command
+    public static String ChatClear_use = "chatclear.use";
     //Server Tools command
     public static String server_tools_use = "server.tools.use";
     public static String server_tools_shutdown = "server.tools.shutdown";
