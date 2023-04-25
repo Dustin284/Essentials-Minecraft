@@ -10,6 +10,7 @@ public class Booleans {
     public static Boolean Spawn = true;
     public static Boolean ServerTools = true;
     public static Boolean Perks = true;
+    public static Boolean ChatClear = true;
 
     //PERKS
     public static Boolean Speed = true;
