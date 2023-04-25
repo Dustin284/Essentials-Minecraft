@@ -14,8 +14,5 @@ public class Booleans {
     //PERKS
     public static Boolean Speed = true;
     public static Boolean Jump = true;
-    public static Boolean NightVision = true;
-    public static Boolean WaterBreathing = true;
-    public static Boolean FireResistance = true;
 
 }
