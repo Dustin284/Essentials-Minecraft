@@ -31,3 +31,6 @@ commands:
   servertools:
     description: Opens the ServerTools GUI
     aliases: [st]
+  ChatClear:
+    description: Clear the Chat
+    aliases: [cc]
